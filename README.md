@@ -1,18 +1,8 @@
-# ArcGIS Item Dependency Finder
+# ArcGIS Item Dependency and Connections Notebook
 
-This notebook helps ArcGIS administrators, analysts, and developers trace relationships between items in ArcGIS Online or ArcGIS Enterprise.  
+This notebook helps ArcGIS administrators, analysts, and developers trace relationships and connections between items in ArcGIS Online.  
 
-It identifies where a specific item—such as a Feature Layer, Web Map, Web Experience, Dashboard, or StoryMap—is used across your organization, and conversely, which maps, layers, or embedded apps are referenced within a given app.
-
----
-
-## Overview
-
-ArcGIS content is often interconnected across maps, apps, dashboards, and experiences. When maintaining or replacing a dataset or service, it can be difficult to answer questions like:
-
-- Which apps use this feature layer?
-- Which maps are included in this Experience Builder app?
-- Does this StoryMap embed any dashboards or other apps?
+It’s designed to trace where a given item—such as a feature layer, web map, dashboard, StoryMap, or Experience Builder app—is used across your organization, and to show what content is referenced within those apps. It will display all associated items for a given app or show all the apps and maps where a feature layer is used.
 
 This notebook scans item JSON data to detect:
 - Referenced item IDs (`itemId`, `serviceItemId`)
