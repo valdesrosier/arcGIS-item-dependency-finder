@@ -1,4 +1,4 @@
-# ArcGIS Item Dependency and Connections Notebook
+# ArcGIS Item Dependencies and Connections Notebook
 
 This notebook helps ArcGIS administrators, analysts, and developers trace relationships and connections between items in ArcGIS Online.  
 
